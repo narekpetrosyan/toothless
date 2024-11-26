@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Marker Felt";
+    src:
+      local("marker-felt"),
+      url("Marker-Felt.ttf") format("opentype") format("ttf");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src:
+      local("helvetica"),
+      url("Helvetica.ttf") format("opentype") format("ttf");
+}
+
+* {
+    line-height: unset !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .text-stroke-white {
+        -webkit-text-stroke: 2px white;
+    }
+
+    .text-stroke-black {
+        -webkit-text-stroke: 2px #252525;
+    }
+    
+    .text-stroke-green {
+        -webkit-text-stroke: 2px #1E3B1B;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-main font-marker-felt;
+    }
+
+    .text-stroke-white-2 {
+        @apply text-stroke-white;
+    }
+    
+    .text-stroke-black-2 {
+        @apply text-stroke-black;
+    }
+    
+    .text-stroke-green-2 {
+        @apply text-stroke-green;
+    }
+}
