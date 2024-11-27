@@ -74,7 +74,7 @@ function App() {
             <p className="text-main font-bold md:text-3xl text-xl">
               1. Create a wallet with Phantom
             </p>
-            <p className="text-white md:text-2xl text-xl">
+            <p className="text-white md:text-2xl text-xl font-helvetica">
               Visit <a href="https://phantom.app/">phantom.app</a> and follow the simple steps to
               create a new account with the Phantom app or browser extension.
             </p>
@@ -82,7 +82,7 @@ function App() {
 
           <div className="md:border-4 border-2 bg-main border-main-text rounded-[42px] flex flex-col md:gap-5 gap-3 md:p-8 p-6">
             <p className="text-main font-bold md:text-3xl text-xl">2. Get some $SOL</p>
-            <p className="text-white md:text-2xl text-xl">
+            <p className="text-white md:text-2xl text-xl font-helvetica">
               Tap the BUY button in the app to purchase Solana, or deposit $SOL to your Phantom
               wallet from the crypto exchange of your choice.
             </p>
@@ -90,7 +90,7 @@ function App() {
 
           <div className="md:border-4 border-2 bg-main border-main-text rounded-[42px] flex flex-col md:gap-5 gap-3 md:p-8 p-6">
             <p className="text-main font-bold md:text-3xl text-xl">3. Swap $SOL for $TOOTHLESS</p>
-            <p className="text-white md:text-2xl text-xl">
+            <p className="text-white md:text-2xl text-xl font-helvetica">
               Tap the SWAP icon in your Phantom wallet and paste the $TOOTHLESS token address. Swap
               your $SOL for $TOOTHLESS.
             </p>
@@ -100,7 +100,7 @@ function App() {
             <p className="text-main font-bold md:text-3xl text-xl">
               4. You are now a $TOOTHLESS holder!
             </p>
-            <p className="text-white md:text-2xl text-xl">
+            <p className="text-white md:text-2xl text-xl font-helvetica">
               Dance, dance, dance, dance, dance, dance, dance, dance, dance, dance, dance, dance,
               dance, dance, dance.
             </p>
@@ -121,12 +121,14 @@ function App() {
 
         <div className="flex flex-col xl:hidden items-center gap-5 w-full max-w-700 mb-5">
           <div className="md:border-4 border-2 bg-main border-white rounded-[42px] flex gap-3 p-4 items-center w-full justify-center">
-            <p className="text-white font-bold text-sm">TOTAL SUPPLY:</p>
-            <p className="text-white text-sm">1 BILLION COINS</p>
+            <p className="text-white font-bold text-sm font-helvetica">TOTAL SUPPLY:</p>
+            <p className="text-white text-sm font-helvetica">1 BILLION COINS</p>
           </div>
 
           <div className="md:border-4 border-2 bg-main border-white rounded-[42px] flex gap-3 p-4 items-center w-full justify-center">
-            <p className="text-white text-sm">AKAMQAag9ZtjDMUQDwZgmVDvBHPDabc2CDuC7v4omKC</p>
+            <p className="text-white text-sm font-helvetica">
+              AKAMQAag9ZtjDMUQDwZgmVDvBHPDabc2CDuC7v4omKC
+            </p>
           </div>
 
           <button
@@ -147,13 +149,15 @@ function App() {
 
           <div className="xl:flex flex-col hidden items-center gap-9">
             <div className="md:border-4 border-2 bg-main border-main-text rounded-[42px] flex md:gap-5 gap-3 md:p-8 p-6 items-center">
-              <p className="text-main font-bold md:text-xl text-base">TOTAL SUPPLY:</p>
-              <p className="text-white md:text-xl text-base">1 BILLION COINS</p>
+              <p className="text-main font-bold md:text-xl text-base font-helvetica">
+                TOTAL SUPPLY:
+              </p>
+              <p className="text-white md:text-xl text-base font-helvetica">1 BILLION COINS</p>
             </div>
 
             <div className="md:border-4 border-2 bg-main border-main-text rounded-[42px] flex md:gap-5 gap-3 md:p-8 p-6 items-center">
-              <p className="text-main font-bold md:text-xl text-base">CA:</p>
-              <p className="text-white md:text-xl text-base">
+              <p className="text-main font-bold md:text-xl text-base font-helvetica">CA:</p>
+              <p className="text-white md:text-xl text-base font-helvetica">
                 AKAMQAag9ZtjDMUQDwZgmVDvBHPDabc2CDuC7v4omKC
               </p>
             </div>

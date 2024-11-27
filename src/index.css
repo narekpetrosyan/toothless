@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "Marker Felt";
-    src:
-      local("marker-felt"),
-      url("Marker-Felt.ttf") format("opentype") format("ttf");
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('/fonts/Helvetica.ttf') format('ttf');
 }
 
 @font-face {
-    font-family: "Helvetica";
-    src:
-      local("helvetica"),
-      url("Helvetica.ttf") format("opentype") format("ttf");
+    font-family: 'go3v2';
+    font-style: normal;
+    font-weight: normal;
+    src: local('go3v2'), url('/fonts/go3v2.woff') format('woff');
 }
 
 * {
@@ -36,7 +36,7 @@
 
 @layer base {
     body {
-        @apply bg-main font-marker-felt;
+        @apply bg-main font-go3v2;
     }
 
     .text-stroke-white-2 {

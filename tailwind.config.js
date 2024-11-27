@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         "marker-felt": ["Marker Felt", "sans-serif"],
         helvetica: ["Helvetica", "sans-serif"],
+        go3v2: ["go3v2", "sans-serif"],
       },
       spacing: {
         700: "700px",
